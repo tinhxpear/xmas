@@ -123,7 +123,7 @@ function createGift() {
     popup.style.display = 'block';
 
     // Hiệu ứng âm thanh khi mở quà
-    const unwrapSound = new Audio('unwrap.mp3');
+    const unwrapSound = new Audio('./public/unwrap.mp3');
     unwrapSound.play();
 
     setTimeout(() => {
